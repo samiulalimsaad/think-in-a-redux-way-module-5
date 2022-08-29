@@ -12,7 +12,7 @@ const store = configureStore({
     },
     middleware: (getDefaultMiddleware) => [
         ...getDefaultMiddleware(),
-        createLogger(),
+        // createLogger(),
     ],
 });
 

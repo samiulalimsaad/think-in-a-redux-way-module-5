@@ -13,11 +13,11 @@ store.subscribe(() => {
 // console.log(counterActions.reset());
 
 store.dispatch(counterActions.increment());
-store.dispatch(counterActions.increment());
-store.dispatch(counterActions.decrement());
-store.dispatch(counterActions.reset());
+// store.dispatch(counterActions.increment());
+// store.dispatch(counterActions.decrement());
+// store.dispatch(counterActions.reset());
 
-store.dispatch(dynamicCounterActions.increment(1));
-store.dispatch(dynamicCounterActions.increment(5));
-store.dispatch(dynamicCounterActions.decrement(2));
-store.dispatch(dynamicCounterActions.reset());
+// store.dispatch(dynamicCounterActions.increment(1));
+// store.dispatch(dynamicCounterActions.increment(5));
+// store.dispatch(dynamicCounterActions.decrement(2));
+// store.dispatch(dynamicCounterActions.reset());
